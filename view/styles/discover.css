@@ -1,0 +1,287 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+.page-title {
+    margin-bottom: 35px;
+}
+
+.page-title>h1 {
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+}
+
+.page-title>h3 {
+    color: black;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+}
+
+.page-title>* {
+    margin-bottom: 32px;
+}
+
+
+.MY-BODY {
+    width: 375px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#template-post {
+    display: none;
+}
+
+.post {
+    margin-bottom: 25px;
+    border-bottom: 2px solid white;
+}
+
+.post-words {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+.add-comment-div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    border: 0.5px solid rgb(238, 238, 238);
+    border-top-color: rgb(247, 247, 247);
+    border-left: 0px;
+    border-right: 0px;
+
+    cursor: pointer;
+}
+
+.adding-post-form {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.post .post-user {
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-user-info {
+    margin-left: 7px;
+}
+
+.post-user-info>* {
+    margin: 7px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.post-user-name {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0px;
+}
+
+.post-user-account {
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 0;
+    margin: 2px 0px;
+}
+
+#add-post-btn {
+    border: hidden;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 61px;
+    position: sticky;
+    bottom: 0px;
+    background: #FFF;
+    box-shadow: 0px -0.5px 0px 0px rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(13.591408729553223px);
+    overflow-x: hidden;
+}
+
+.comment {
+    margin: 5px 0px;
+}
+
+.comments-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 50px;
+    padding-left: 2px;
+    margin-left: 13px;
+    margin-bottom: 15px;
+    border-left: 0.2px solid lightgray;
+    display: none;
+}
+
+.comment-user {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.comment-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.comment-user-info>* {
+    margin: 2px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+}
+
+.comment-user-name {
+    width: 60%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+.comment-user-account {
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 0;
+}
+
+.user-photo {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.comment-user-info {
+    flex-basis: 80%;
+}
+
+.comment-body {
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.see-comments {
+    position: absolute;
+    top: 23px;
+    right: 0px;
+}
+
+.see-comments-btn {
+    background-color: transparent;
+    border: 0;
+    font-size: 0.8rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+.add-comment-textbox {
+    color: black;
+    border: none;
+    width: 100%;
+}
+
+.add-comment-textbox::placeholder {
+    color: black;
+}
+
+.add-comment-textbox:enabled {
+    border: none;
+    outline: none;
+}
+
+.add-comment-textbox:focus::placeholder {
+    color: rgb(119, 118, 118)
+}
+
+.adding-post-middle-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#new-post-textbox{
+    resize: none;
+    width: 250px;
+    height: 20vh;
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+
+#new-post-textbox:focus{
+    outline-color: #b62730;
+}
+
+#adding-post-form button{
+    margin: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#adding-post-form h1{
+    color: white;
+    background-color: #FF3543;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#add-post-submit:hover{
+    background-color:#FF3543;
+    color:white;
+}
+
+#add-post-back:hover{
+    background-color:#969696;
+}

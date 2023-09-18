@@ -1,0 +1,148 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/discover.css">
+    <link rel="stylesheet" href="./styles/comments.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="MY-BODY">
+        <div class="page-title">
+            <h1>Comments</h1>
+            <h3>WHAT'S NEW TODAY</h3>
+        </div>
+        <div id="home-body">
+            <div class="post" id="template-post"> <!-- Post -->
+                <div class="user"> <!-- Post-User -->
+                    <!-- Post-User-Photo -->
+                    <svg class="user-photo" width="50px" height="50px" viewBox="-2.4 -2.4 28.80 28.80" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0">
+                            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#eab29a"
+                                strokewidth="0">
+                            </rect>
+                        </g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <circle cx="12" cy="6" r="4" fill="#1c1c5e"></circle>
+                            <path opacity="0.5"
+                                d="M20 17.5C20 19.9853 20 22 12 22C4 22 4 19.9853 4 17.5C4 15.0147 7.58172 13 12 13C16.4183 13 20 15.0147 20 17.5Z"
+                                fill="#1c1c5e"></path>
+                        </g>
+                    </svg>
+                    <div class="post-user-info"> <!-- Post-User-Info -->
+                        <h6 class="post-user-name">user name</h6>
+                        <p class="post-user-account">@userAccount</p>
+                    </div>
+                </div>
+                <div class="post-body"> <!-- Post-Body -->
+                    <p class="post-words"> <!-- Post-Body- -->
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        dolor in hendrerit in vulputate velit esse.
+                    </p>
+                </div>
+                <div class="comments-section">
+
+                    <div class="comment hidden" id="template-comment">
+                        <div class="comment-user"> <!-- Post-User -->
+                            <!-- Post-User-Photo -->
+                            <svg class="user-photo" width="25px" height="25px" viewBox="-2.4 -2.4 28.80 28.80"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                                    <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#ebb7f0"
+                                        strokewidth="0">
+                                    </rect>
+                                </g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <circle cx="12" cy="6" r="4" fill="#1c1c5e"></circle>
+                                    <path opacity="0.5"
+                                        d="M20 17.5C20 19.9853 20 22 12 22C4 22 4 19.9853 4 17.5C4 15.0147 7.58172 13 12 13C16.4183 13 20 15.0147 20 17.5Z"
+                                        fill="#1c1c5e"></path>
+                                </g>
+                            </svg>
+                            <div class="comment-user-info">
+                                <h6 class="comment-user-name">user name</h6>
+                                <p class="comment-body">This is the comment hehe</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="see-comments">
+                        <button class="to-comment-section see-comments-btn" id="">See Comments</button>
+                    </div>
+                </div>
+                
+                
+                <div class="add-comment-div">
+                    <svg width="30px" height="30px" viewBox="-6.4 -6.4 44.80 44.80" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#ff0505"
+                            stroke-width="0.8320000000000001"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>comment-1</title>
+                            <desc>Created with Sketch Beta.</desc>
+                            <defs> </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                sketch:type="MSPage">
+                                <g id="Icon-Set" sketch:type="MSLayerGroup"
+                                    transform="translate(-100.000000, -255.000000)" fill="#000000">
+                                    <path
+                                        d="M116,281 C114.832,281 113.704,280.864 112.62,280.633 L107.912,283.463 L107.975,278.824 C104.366,276.654 102,273.066 102,269 C102,262.373 108.268,257 116,257 C123.732,257 130,262.373 130,269 C130,275.628 123.732,281 116,281 L116,281 Z M116,255 C107.164,255 100,261.269 100,269 C100,273.419 102.345,277.354 106,279.919 L106,287 L113.009,282.747 C113.979,282.907 114.977,283 116,283 C124.836,283 132,276.732 132,269 C132,261.269 124.836,255 116,255 L116,255 Z"
+                                        id="comment-1" sketch:type="MSShapeGroup"> </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <input type="text" class="add-comment-textbox" placeholder="Add Comment...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="adding-comment-form" class="adding-comment-form hidden">
+        <h1>New Comment..</h1>
+        <div class="adding-comment-middle-div">
+            <textarea name="comment" id="new-comment-textbox"></textarea>
+            <button id="add-comment-submit">SUBMIT</button>
+            <button id="add-comment-back">BACK</button>
+        </div>
+    </div>
+
+    <footer>
+        <button id="add-comment-btn"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" viewBox="0 0 70 40"
+                fill="none">
+                <g clip-path="url(#clip0_848_205)">
+                    <rect width="70" height="40" rx="20" fill="url(#paint0_linear_848_205)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M35.5 13.5H34.5V19.5H28.5V20.5H34.5V26.5H35.5V20.5H41.5V19.5H35.5V13.5Z" fill="white" />
+                </g>
+                <defs>
+                    <linearGradient id="paint0_linear_848_205" x1="49.2593" y1="-3.10162e-07" x2="38.9597" y2="44.2414"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF00D6" />
+                        <stop offset="1" stop-color="#FF4D00" />
+                    </linearGradient>
+                    <clipPath id="clip0_848_205">
+                        <rect width="70" height="40" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg></button>
+    </footer>
+    <!-- <script type="module" src="../scripts/comments.js"></script> -->
+    <script type="module" src="../controllers/comment_controller.js"></script>
+</body>
+
+</html>

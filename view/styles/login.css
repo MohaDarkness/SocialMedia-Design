@@ -1,0 +1,45 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.rows {
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+input {
+    margin: .5rem 0;
+    height: 52px;
+    border: 2px solid black;
+    padding: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    margin: .5rem 0;
+    height: 52px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: #000000;
+    font-weight: 900;
+    color: white;
+}
+
+.prevent-access {
+    border-color: rgba(255, 0, 0, 0.432);
+    outline-color: rgba(255, 0, 0, 0.507);
+    background-color: rgb(255, 240, 240);
+}

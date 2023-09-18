@@ -1,0 +1,110 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+.page-title {
+    margin-bottom: 35px;
+}
+
+.page-title>h1 {
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+}
+
+.page-title>h3 {
+    color: black;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+}
+
+.page-title>* {
+    margin-bottom: 32px;
+}
+
+
+.user {
+    display: flex;
+}
+
+#add-comment-btn {
+    border: hidden;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.adding-comment-form {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adding-comment-middle-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#new-comment-textbox {
+    resize: none;
+    width: 250px;
+    height: 20vh;
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+
+#new-comment-textbox:focus {
+    outline-color: #b62730;
+}
+
+#adding-comment-form button {
+    margin: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#adding-comment-form h1 {
+    color: white;
+    background-color: #FF3543;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#add-comment-submit:hover {
+    background-color: #FF3543;
+    color: white;
+}
+
+#add-comment-back:hover {
+    background-color: #969696;
+}
+
+.hidden {
+    display: none;
+}
